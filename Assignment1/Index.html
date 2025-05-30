@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Discovery Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <nav class="navbar">
+          <div class="logo">MediaDiscover</div>
+
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#tvShows">TV Shows</a></li>
+            <li><a href="#movies">Trending</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="hero-section" id="home">
+        <div class="hero-content">
+          <div class="intro-left">
+            <h1>Cinema</h1>
+            <p>
+              Discover the best movies, from old favorites to the latest hits.
+              Explore a world of stories.
+            </p>
+            <a href="#" class="cta-button">Explore Movies</a>
+          </div>
+          <div class="intro-right">
+            <img src="cinema.svg" alt="Cinema illustration" />
+          </div>
+        </div>
+      </section>
+
+      <section class="trending-movies" id="movies">
+        <h2>Trending Movies</h2>
+        <p class="section-subtitle">
+          What Everyone’s Watching Right Now – Don’t Miss Out!
+        </p>
+        <div class="movie-cards-container">
+          <div class="card">
+            <img
+              src="Inception.jpg"
+              alt="Movie Poster" />
+            <div class="card-content">
+              <h3>Inception</h3>
+              <p>
+                A mind-bending thriller that dives into dreams within dreams.
+              </p>
+              <a href="#" class="card-btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="The Matrix.jpg"
+              alt="Movie Poster" />
+            <div class="card-content">
+              <h3>The Matrix</h3>
+              <p>
+                A hacker learns the truth about his reality and his role in the
+                war against its controllers.
+              </p>
+              <a href="#" class="card-btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="Intersteller.jpg"
+              alt="Movie Poster" />
+            <div class="card-content">
+              <h3>Interstellar</h3>
+              <p>
+                A team of explorers travel through a wormhole in space in an
+                attempt to ensure humanity's survival.
+              </p>
+              <a href="#" class="card-btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="Parasite.jpg"
+              alt="Movie Poster" />
+            <div class="card-content">
+              <h3>Parasite</h3>
+              <p>
+                Greed and class discrimination threaten the newly formed
+                symbiotic relationship between the wealthy Park family and the
+                destitute Kim clan.
+              </p>
+              <a href="#" class="card-btn">Watch Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular-shows" id="tvShows">
+        <h2>Popular Shows</h2>
+        <p class="section-subtitle">
+          Binge-worthy series and top-rated TV shows everyone is talking about.
+        </p>
+        <div class="movie-cards-container">
+          <div class="card">
+            <img
+              src="Images/StarangerThings.jpg"
+              alt="Show Poster" />
+            <div class="card-content">
+              <h3>Stranger Things</h3>
+              <p>
+                A group of young friends witness supernatural forces and secret
+                government exploits.
+              </p>
+              <a href="#" class="card-btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="Images/TheWitcher.jpg"
+              alt="Show Poster" />
+            <div class="card-content">
+              <h3>The Witcher</h3>
+              <p>
+                Geralt of Rivia, a solitary monster hunter, struggles to find
+                his place in a world where people often prove more wicked than
+                beasts.
+              </p>
+              <a href="#" class="card-btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="Images/MoneyHeist.jpg"
+              alt="Show Poster" />
+            <div class="card-content">
+              <h3>Money Heist</h3>
+              <p>
+                An unusual group of robbers attempt to carry out the most
+                perfect robbery in Spanish history.
+              </p>
+              <a href="#" class="card-btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="Images/SquidGame.jpg"
+              alt="Show Poster" />
+            <div class="card-content">
+              <h3>Squid Game</h3>
+              <p>
+                Hundreds of cash-strapped contestants accept an invitation to
+                compete in children's games for a tempting prize, but the stakes
+                are deadly.
+              </p>
+              <a href="#" class="card-btn">Watch Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="user-reviews">
+        <h2>User Reviews</h2>
+        <p class="section-subtitle">
+          See what our community thinks and share your own experience!
+        </p>
+        <div class="reviews-content-wrapper">
+          <div class="reviews-display">
+            <div class="review-card">
+              <div class="review-author">
+                <img src="avtar.svg" alt="Alex U." class="review-author-img">
+                <h3 class="review-author-name">Alex U.</h3>
+              </div>
+              <div class="review-text">
+                <p>"Absolutely loved the recommendations! Found so many hidden gems I wouldn't have discovered otherwise. The interface is clean and easy to navigate."</p>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="review-author">
+                <img src="avtar.svg" alt="Sarah J." class="review-author-img">
+                <h3 class="review-author-name">Sarah J.</h3>
+              </div>
+              <div class="review-text">
+                <p>"MediaDiscover is my go-to for finding what to watch next. The trending section is always spot on, and I appreciate the variety of content covered."</p>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="review-author">
+                <img src="avtar.svg" alt="Mike K." class="review-author-img">
+                <h3 class="review-author-name">Mike K.</h3>
+              </div>
+              <div class="review-text">
+                <p>"Great platform! The 'My List' feature is super handy. Would love to see integration with streaming services to check availability directly."</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-form-container">
+            <h4>Leave Your Review</h4>
+            <form action="#" method="POST" id="userReviewForm">
+              <div class="form-group">
+                <label for="reviewerName">Your Name</label>
+                <input type="text" id="reviewerName" name="reviewerName"
+                  placeholder="Enter your name" required>
+              </div>
+              <div class="form-group">
+                <label for="reviewerEmail">Your Email</label>
+                <input type="email" id="reviewerEmail" name="reviewerEmail"
+                  placeholder="Enter your email (optional)">
+              </div>
+              <div class="form-group">
+                <label for="reviewText">Your Review</label>
+                <textarea id="reviewText" name="reviewText" rows="5"
+                  placeholder="Write your review here..." required></textarea>
+              </div>
+              <button type="submit" class="submit-review-btn">Submit
+                Review</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+       
+         <footer class="site-footer">
+        <div class="footer-content-wrapper">
+          <div class="footer-column about-us">
+            <h4>MediaDiscover</h4>
+            <p>Your ultimate destination for discovering movies, TV shows, and web series. Explore, watch, and review.</p>
+          </div>
+
+          <div class="footer-column quick-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#movies">Movies</a></li>
+              <li><a href="#tvShows">TV Shows</a></li>
+              <li><a href="#movies">Trending</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column legal-links">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="https://example.com/terms" target="_blank" rel="noopener noreferrer">Terms & Conditions</a></li>
+              <li><a href="https://example.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+              <li><a href="https://example.com/faq" target="_blank" rel="noopener noreferrer">FAQ</a></li>
+            </ul>
+          </div>
+
+          
+        </div>
+        <div class="footer-bottom">
+          <p>© <span id="currentYear"></span> MediaDiscover. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <a href="#page-top" class="back-to-top-btn" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+      </footer>
+    </div>
+  </body>
+</html>
